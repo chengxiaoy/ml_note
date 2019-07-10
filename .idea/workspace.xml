@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adb0368f-a9cd-438d-ab2e-2bbad5978ef4" name="Default" comment="Understanding the Disharmony between Dropout and Batch Normalization by Variance Shift">
-      <change afterPath="$PROJECT_DIR$/math/Regional Attention Based Deep Feature for Image Retrieval.md" afterDir="false" />
+    <list default="true" id="adb0368f-a9cd-438d-ab2e-2bbad5978ef4" name="Default" comment="Regional Attention Based Deep Feature for Image Retrieval">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math/Regional Attention Based Deep Feature for Image Retrieval.md" beforeDir="false" afterPath="$PROJECT_DIR$/math/Regional Attention Based Deep Feature for Image Retrieval.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +17,20 @@
         <entry file="file://$PROJECT_DIR$/math/Regional Attention Based Deep Feature for Image Retrieval.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="432">
-                <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <first_editor relative-caret-position="590">
+                <caret line="52" selection-start-line="52" selection-end-line="52" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/math/generalized_max_pooling.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="36">
+                <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="12" />
               </first_editor>
               <second_editor />
             </state>
@@ -145,7 +157,7 @@
       <option name="presentableId" value="Default" />
       <updated>1561347717057</updated>
       <workItem from="1562225296836" duration="4545000" />
-      <workItem from="1562739680924" duration="1810000" />
+      <workItem from="1562739680924" duration="4209000" />
     </task>
     <task id="LOCAL-00001" summary="kernels">
       <created>1561348241199</created>
@@ -196,11 +208,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562231497730</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Regional Attention Based Deep Feature for Image Retrieval">
+      <created>1562741718251</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1562741718251</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6355000" />
+    <option name="totallyTimeSpent" value="8754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="164" y="23" width="1199" height="810" extended-state="0" />
@@ -218,7 +237,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32863435" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32904148" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -258,7 +277,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="kernels" />
     <MESSAGE value="Understanding the Disharmony between Dropout and Batch Normalization by Variance Shift" />
-    <option name="LAST_COMMIT_MESSAGE" value="Understanding the Disharmony between Dropout and Batch Normalization by Variance Shift" />
+    <MESSAGE value="Regional Attention Based Deep Feature for Image Retrieval" />
+    <option name="LAST_COMMIT_MESSAGE" value="Regional Attention Based Deep Feature for Image Retrieval" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dot_product_kernels.ipynb" />
@@ -308,8 +328,8 @@
     <entry file="file://$PROJECT_DIR$/math/Regional Attention Based Deep Feature for Image Retrieval.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="432">
-            <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <first_editor relative-caret-position="590">
+            <caret line="52" selection-start-line="52" selection-end-line="52" />
           </first_editor>
           <second_editor />
         </state>
