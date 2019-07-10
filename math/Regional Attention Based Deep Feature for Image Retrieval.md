@@ -36,7 +36,7 @@ where ⊕ represents a vector concatenation in the channel space.
 
 
 ### Cross-dimensional Weighting for Aggregated Deep Convolutional Features(crow)
-
+-------
 learn alpha and beta as the spatial weights and the channel weights
 summary:   
 ![summary](https://user-images.githubusercontent.com/19379550/60952131-4059e600-a32d-11e9-8c01-ab3b2295b9a7.jpg)
@@ -53,6 +53,7 @@ summary:
  
  
 ### Large-Scale Image Retrieval with Attentive Deep Local Features
+--------
 
 attentive local feature descriptor suitable for large-scale image retrieval, 
 referred to as DELF (DEep Local Feature).
@@ -63,4 +64,9 @@ the innovation of this architecture is that the attention score of the local fea
 in this retrieval system, global descriptor is deprecated, a image is represent by several discriminative local feature.
 
 the score function is designed use a 2-layer CNN with a softplus activation at top
- 
+
+
+### Parameter-Free Spatial Attention Network for Person Re-Identification
+-----
+parameter-free spatial attention,assigns different importance for different locations
+![sa](https://user-images.githubusercontent.com/19379550/60954927-6b930400-a332-11e9-8fb7-7ad82f3586ca.jpg) 
