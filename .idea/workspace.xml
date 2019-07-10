@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adb0368f-a9cd-438d-ab2e-2bbad5978ef4" name="Default" comment="">
+    <list default="true" id="adb0368f-a9cd-438d-ab2e-2bbad5978ef4" name="Default" comment="Understanding the Disharmony between Dropout and Batch Normalization by Variance Shift">
+      <change afterPath="$PROJECT_DIR$/math/Regional Attention Based Deep Feature for Image Retrieval.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/math/Disharmony between Dropout and Batch Normalization.md" beforeDir="false" afterPath="$PROJECT_DIR$/math/Disharmony between Dropout and Batch Normalization.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytorch_learn/rnn_demo.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/pytorch_learn/rnn_demo.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,59 +13,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/math/dot_product_kernels.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="432">
-                <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/math/generalized_max_pooling.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="36">
-                <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="12" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/math/Disharmony between Dropout and Batch Normalization.md">
+        <entry file="file://$PROJECT_DIR$/math/Regional Attention Based Deep Feature for Image Retrieval.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="742">
-                <caret line="47" selection-start-line="47" selection-end-line="47" />
+              <first_editor relative-caret-position="432">
+                <caret line="24" selection-start-line="24" selection-end-line="24" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pytorch_learn/rnn_demo.ipynb">
-          <provider selected="true" editor-type-id="jupyter-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/activation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1205">
-              <caret line="532" column="19" lean-forward="true" selection-start-line="528" selection-start-column="8" selection-end-line="532" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fluent_python/charpter_2.ipynb">
-          <provider selected="true" editor-type-id="jupyter-editor" />
         </entry>
       </file>
     </leaf>
@@ -90,21 +46,21 @@
         <option value="$PROJECT_DIR$/pytorch_learn/rnn_demo.ipynb" />
         <option value="$PROJECT_DIR$/fluent_python/charpter_2.ipynb" />
         <option value="$PROJECT_DIR$/math/Disharmony between Dropout and Batch Normalization.md" />
+        <option value="$PROJECT_DIR$/math/Regional Attention Based Deep Feature for Image Retrieval.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="415" />
-    <option name="y" value="288" />
-    <option name="width" value="1194" />
-    <option name="height" value="1047" />
+    <option name="x" value="164" />
+    <option name="y" value="23" />
+    <option name="width" value="1199" />
+    <option name="height" value="810" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,6 +87,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,7 +144,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561347717057</updated>
-      <workItem from="1562225296836" duration="3989000" />
+      <workItem from="1562225296836" duration="4545000" />
+      <workItem from="1562739680924" duration="1810000" />
     </task>
     <task id="LOCAL-00001" summary="kernels">
       <created>1561348241199</created>
@@ -231,21 +189,26 @@
       <option name="project" value="LOCAL" />
       <updated>1562223773289</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Understanding the Disharmony between Dropout and Batch Normalization by Variance Shift">
+      <created>1562231497730</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1562231497730</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3989000" />
+    <option name="totallyTimeSpent" value="6355000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="415" y="288" width="1194" height="1047" extended-state="0" />
+    <frame x="164" y="23" width="1199" height="810" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.33513513" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20836966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32951543" />
@@ -257,11 +220,13 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32863435" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="SciView" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33513513" />
@@ -292,10 +257,34 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="kernels" />
-    <option name="LAST_COMMIT_MESSAGE" value="kernels" />
+    <MESSAGE value="Understanding the Disharmony between Dropout and Batch Normalization by Variance Shift" />
+    <option name="LAST_COMMIT_MESSAGE" value="Understanding the Disharmony between Dropout and Batch Normalization by Variance Shift" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dot_product_kernels.ipynb" />
+    <entry file="file://$PROJECT_DIR$/pytorch_learn/rnn_demo.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/activation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9414">
+          <caret line="532" column="19" selection-start-line="528" selection-start-column="8" selection-end-line="532" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fluent_python/charpter_2.ipynb">
+      <provider selected="true" editor-type-id="jupyter-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math/Disharmony between Dropout and Batch Normalization.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="451">
+            <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/math/dot_product_kernels.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -303,16 +292,6 @@
             <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fluent_python/charpter_2.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/pytorch/lib/python3.6/site-packages/torch/nn/modules/activation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1205">
-          <caret line="532" column="19" lean-forward="true" selection-start-line="528" selection-start-column="8" selection-end-line="532" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -326,14 +305,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pytorch_learn/rnn_demo.ipynb">
-      <provider selected="true" editor-type-id="jupyter-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/math/Disharmony between Dropout and Batch Normalization.md">
+    <entry file="file://$PROJECT_DIR$/math/Regional Attention Based Deep Feature for Image Retrieval.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="742">
-            <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <first_editor relative-caret-position="432">
+            <caret line="24" selection-start-line="24" selection-end-line="24" />
           </first_editor>
           <second_editor />
         </state>
