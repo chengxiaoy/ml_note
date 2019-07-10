@@ -1,7 +1,7 @@
 ## attention mechanism in CNN
 
 
-## Regional Attention Based Deep Feature for Image Retrieval
+### Regional Attention Based Deep Feature for Image Retrieval
 ---------
 
 the method is based on R-MAC by add context-aware regional attention network
@@ -33,7 +33,9 @@ where ⊕ represents a vector concatenation in the channel space.
  entropy loss of 􏰂y<sub>I</sub> , while freezing parameters of the off-the-shelf CNN.
 - use the ILSVRC ImageNet dataset as the training dataset for meeting the purpose of “pre-trained single-pass”.
 
-
+    
+         
+              
 
 ### Cross-dimensional Weighting for Aggregated Deep Convolutional Features(crow)
 -------
@@ -51,6 +53,10 @@ summary:
  Ξk:Ξk = 1-Q<sub>k</sub>, where Q<sub>k</sub>:
  ![](https://user-images.githubusercontent.com/19379550/60951311-70a08500-a32b-11e9-8d16-d6f08e1373cb.jpg)
  
+   
+       
+            
+            
  
 ### Large-Scale Image Retrieval with Attentive Deep Local Features
 --------
@@ -64,7 +70,9 @@ the innovation of this architecture is that the attention score of the local fea
 in this retrieval system, global descriptor is deprecated, a image is represent by several discriminative local feature.
 
 the score function is designed use a 2-layer CNN with a softplus activation at top
-
+   
+   
+   
 
 ### Parameter-Free Spatial Attention Network for Person Re-Identification
 -----
