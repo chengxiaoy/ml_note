@@ -54,7 +54,13 @@ summary:
  
 ### Large-Scale Image Retrieval with Attentive Deep Local Features
 
+attentive local feature descriptor suitable for large-scale image retrieval, 
+referred to as DELF (DEep Local Feature).
 
- 
- 
+architecture as below:   
+![](https://user-images.githubusercontent.com/19379550/60952400-c8d88680-a32d-11e9-90a2-ec62b77831d4.jpg)
+the innovation of this architecture is that the attention score of the local feature, since 
+in this retrieval system, global descriptor is deprecated, a image is represent by several discriminative local feature.
+
+the score function is designed use a 2-layer CNN with a softplus activation at top
  

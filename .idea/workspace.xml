@@ -17,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/math/Regional Attention Based Deep Feature for Image Retrieval.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="590">
-                <caret line="52" selection-start-line="52" selection-end-line="52" />
+              <first_editor relative-caret-position="600">
+                <caret line="64" column="82" selection-start-line="64" selection-start-column="82" selection-end-line="64" selection-end-column="82" />
               </first_editor>
               <second_editor />
             </state>
@@ -73,6 +73,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -99,7 +100,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -157,7 +157,8 @@
       <option name="presentableId" value="Default" />
       <updated>1561347717057</updated>
       <workItem from="1562225296836" duration="4545000" />
-      <workItem from="1562739680924" duration="4209000" />
+      <workItem from="1562739680924" duration="5371000" />
+      <workItem from="1562747751260" duration="166000" />
     </task>
     <task id="LOCAL-00001" summary="kernels">
       <created>1561348241199</created>
@@ -215,17 +216,23 @@
       <option name="project" value="LOCAL" />
       <updated>1562741718251</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Regional Attention Based Deep Feature for Image Retrieval">
+      <created>1562746309412</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1562746309412</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8754000" />
+    <option name="totallyTimeSpent" value="10082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="164" y="23" width="1199" height="810" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20836966" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21272886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -315,21 +322,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/math/generalized_max_pooling.md">
+    <entry file="file://$PROJECT_DIR$/math/Regional Attention Based Deep Feature for Image Retrieval.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="36">
-            <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="12" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="600">
+            <caret line="64" column="82" selection-start-line="64" selection-start-column="82" selection-end-line="64" selection-end-column="82" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/math/Regional Attention Based Deep Feature for Image Retrieval.md">
+    <entry file="file://$PROJECT_DIR$/math/generalized_max_pooling.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="590">
-            <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="36">
+            <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="12" />
           </first_editor>
           <second_editor />
         </state>
