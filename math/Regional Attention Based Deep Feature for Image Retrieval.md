@@ -70,3 +70,7 @@ the score function is designed use a 2-layer CNN with a softplus activation at t
 -----
 parameter-free spatial attention,assigns different importance for different locations
 ![sa](https://user-images.githubusercontent.com/19379550/60954927-6b930400-a332-11e9-8fb7-7ad82f3586ca.jpg) 
+
+
+attention mechanism in other domain:   
+1. [SCA-CNN: Spatial and Channel-wise Attention in Convolutional Networks for Image Captioning](https://arxiv.org/abs/1611.05594)

@@ -17,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/math/Regional Attention Based Deep Feature for Image Retrieval.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="600">
-                <caret line="64" column="82" selection-start-line="64" selection-start-column="82" selection-end-line="64" selection-end-column="82" />
+              <first_editor relative-caret-position="546">
+                <caret line="75" selection-start-line="75" selection-end-line="75" />
               </first_editor>
               <second_editor />
             </state>
@@ -159,6 +159,7 @@
       <workItem from="1562225296836" duration="4545000" />
       <workItem from="1562739680924" duration="5371000" />
       <workItem from="1562747751260" duration="166000" />
+      <workItem from="1562747940848" duration="751000" />
     </task>
     <task id="LOCAL-00001" summary="kernels">
       <created>1561348241199</created>
@@ -223,16 +224,31 @@
       <option name="project" value="LOCAL" />
       <updated>1562746309412</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Regional Attention Based Deep Feature for Image Retrieval">
+      <created>1562748126604</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1562748126604</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Regional Attention Based Deep Feature for Image Retrieval">
+      <created>1562748508420</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1562748508420</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10082000" />
+    <option name="totallyTimeSpent" value="10833000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="164" y="23" width="1199" height="810" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21272886" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21708806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -325,8 +341,8 @@
     <entry file="file://$PROJECT_DIR$/math/Regional Attention Based Deep Feature for Image Retrieval.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="600">
-            <caret line="64" column="82" selection-start-line="64" selection-start-column="82" selection-end-line="64" selection-end-column="82" />
+          <first_editor relative-caret-position="546">
+            <caret line="75" selection-start-line="75" selection-end-line="75" />
           </first_editor>
           <second_editor />
         </state>
