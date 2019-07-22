@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adb0368f-a9cd-438d-ab2e-2bbad5978ef4" name="Default" comment="Regional Attention Based Deep Feature for Image Retrieval">
-      <change afterPath="$PROJECT_DIR$/paper/advance_loss.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paper/SEQUENCED-REPLACEMENT SAMPLING FOR DEEP LEARNING.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,12 +25,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/paper/advance_loss.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="54">
+                <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/paper/SEQUENCED-REPLACEMENT SAMPLING FOR DEEP LEARNING.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="522">
-                <caret line="29" column="117" selection-start-line="29" selection-start-column="117" selection-end-line="29" selection-end-column="117" />
+              <first_editor relative-caret-position="270">
+                <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
               </first_editor>
               <second_editor />
             </state>
@@ -74,14 +86,15 @@
         <option value="$PROJECT_DIR$/math/Regional Attention Based Deep Feature for Image Retrieval.md" />
         <option value="$PROJECT_DIR$/paper/advance_loss.py" />
         <option value="$PROJECT_DIR$/paper/advance_loss.md" />
+        <option value="$PROJECT_DIR$/paper/SEQUENCED-REPLACEMENT SAMPLING FOR DEEP LEARNING.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="471" />
-    <option name="y" value="261" />
-    <option name="width" value="1540" />
-    <option name="height" value="995" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="898" />
+    <option name="y" value="223" />
+    <option name="width" value="1525" />
+    <option name="height" value="913" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -124,7 +137,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.project" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -178,7 +191,8 @@
       <workItem from="1562813949653" duration="577000" />
       <workItem from="1562902282011" duration="4000" />
       <workItem from="1563157782224" duration="1206000" />
-      <workItem from="1563159310641" duration="1025000" />
+      <workItem from="1563159310641" duration="2257000" />
+      <workItem from="1563775642734" duration="2334000" />
     </task>
     <task id="LOCAL-00001" summary="kernels">
       <created>1561348241199</created>
@@ -285,17 +299,24 @@
       <option name="project" value="LOCAL" />
       <updated>1562814102500</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Regional Attention Based Deep Feature for Image Retrieval">
+      <created>1563160663701</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1563160663701</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14042000" />
+    <option name="totallyTimeSpent" value="17608000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="838" extended-state="6" />
+    <frame x="898" y="223" width="1525" height="913" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19308357" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18533605" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -305,9 +326,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.3287483" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32863435" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32904148" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3287483" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -385,16 +406,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/paper/generalized_max_pooling.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="36">
-            <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/paper/attention mechanism in CNN.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -405,18 +416,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/paper/advance_loss.md">
+    <entry file="file://$PROJECT_DIR$/paper/generalized_max_pooling.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="522">
-            <caret line="29" column="117" selection-start-line="29" selection-start-column="117" selection-end-line="29" selection-end-column="117" />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="36">
+            <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="12" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paper/advance_loss.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="20" column="75" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="54">
+            <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paper/SEQUENCED-REPLACEMENT SAMPLING FOR DEEP LEARNING.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="270">
+            <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
