@@ -81,3 +81,15 @@ the loss function becomes:
 ![AM-softmax](https://user-images.githubusercontent.com/19379550/62439441-67fe6b80-b77e-11e9-8d58-4d8348206b4c.jpg)
 
 
+-------
+
+### LMCL(CosFace:Large Margin Cosine Loss for Deep Face Recognition) 
+
+this paper is similar to am-softmax one 
+In this paper, reformulate the softmax loss as a cosine loss by L2 normalizing both features and weight vectors to 
+remove radial variations, based on which a cosine margin term m is introduced to further maximize the decision margin 
+in the angular space.    
+![different-loss](https://user-images.githubusercontent.com/19379550/62443377-4ce72800-b78d-11e9-91cf-7c59b822f468.jpg)
+------
+
+### ArcFace/InsightFace (ArcFace: Additive Angular Margin Loss for Deep Face Recognition)
