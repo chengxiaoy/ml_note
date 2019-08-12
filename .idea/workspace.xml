@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="adb0368f-a9cd-438d-ab2e-2bbad5978ef4" name="Default" comment="add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paper/advance_loss.md" beforeDir="false" afterPath="$PROJECT_DIR$/paper/advance_loss.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/数据降维.md" beforeDir="false" afterPath="$PROJECT_DIR$/basic/数据降维.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,11 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/paper/advance_loss.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="688">
+              <first_editor relative-caret-position="1710">
                 <caret line="95" selection-start-line="95" selection-end-line="95" />
               </first_editor>
               <second_editor />
@@ -49,12 +49,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/basic/数据降维.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
+              <first_editor relative-caret-position="652">
+                <caret line="92" column="37" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/paper/dot_product_kernels.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
               <first_editor relative-caret-position="432">
-                <caret line="24" selection-start-line="24" selection-end-line="24" />
+                <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
               </first_editor>
               <second_editor />
             </state>
@@ -111,17 +123,17 @@
         <option value="$PROJECT_DIR$/paper/advance_loss.py" />
         <option value="$PROJECT_DIR$/paper/SEQUENCED-REPLACEMENT SAMPLING FOR DEEP LEARNING.md" />
         <option value="$PROJECT_DIR$/basic/genetic algorithms.py" />
-        <option value="$PROJECT_DIR$/basic/数据降维.md" />
         <option value="$PROJECT_DIR$/basic/Normalization in DL.md" />
         <option value="$PROJECT_DIR$/paper/advance_loss.md" />
+        <option value="$PROJECT_DIR$/basic/数据降维.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="449" />
-    <option name="y" value="295" />
-    <option name="width" value="1789" />
-    <option name="height" value="970" />
+    <option name="x" value="320" />
+    <option name="y" value="200" />
+    <option name="width" value="1920" />
+    <option name="height" value="1063" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -225,7 +237,9 @@
       <workItem from="1564710998885" duration="2481000" />
       <workItem from="1564730487959" duration="19000" />
       <workItem from="1564973538531" duration="5968000" />
-      <workItem from="1564985774874" duration="1564000" />
+      <workItem from="1564985774874" duration="1587000" />
+      <workItem from="1565252606419" duration="2632000" />
+      <workItem from="1565522777378" duration="3198000" />
     </task>
     <task id="LOCAL-00001" summary="kernels">
       <created>1561348241199</created>
@@ -374,17 +388,24 @@
       <option name="project" value="LOCAL" />
       <updated>1564980453809</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add">
+      <created>1564988207564</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1564988207564</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37639000" />
+    <option name="totallyTimeSpent" value="43492000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="449" y="295" width="1789" height="970" extended-state="0" />
+    <frame x="-1427" y="563" width="1352" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15417868" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15538462" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -407,7 +428,7 @@
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15417868" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15544042" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -465,16 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/paper/dot_product_kernels.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="432">
-            <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basic/genetic algorithms.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -489,21 +500,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/Normalization in DL.md">
+    <entry file="file://$PROJECT_DIR$/paper/advance_loss.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="75" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="360">
-            <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <first_editor relative-caret-position="1710">
+            <caret line="95" selection-start-line="95" selection-end-line="95" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/数据降维.md">
+    <entry file="file://$PROJECT_DIR$/basic/Normalization in DL.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="432">
-            <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <first_editor relative-caret-position="360">
+            <caret line="20" selection-start-line="20" selection-end-line="20" />
           </first_editor>
           <second_editor />
         </state>
@@ -529,18 +545,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/paper/advance_loss.md">
+    <entry file="file://$PROJECT_DIR$/paper/dot_product_kernels.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="688">
-            <caret line="95" selection-start-line="95" selection-end-line="95" />
+          <first_editor relative-caret-position="432">
+            <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="75" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/数据降维.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="652">
+            <caret line="92" column="37" selection-start-line="92" selection-start-column="37" selection-end-line="92" selection-end-column="37" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
