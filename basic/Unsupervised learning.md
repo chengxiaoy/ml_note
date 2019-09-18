@@ -54,3 +54,10 @@ https://github.com/yzwxx/vae-celebA
 
 
 all above pic from https://towardsdatascience.com/intuitively-understanding-variational-autoencoders-1bfe67eb5daf
+
+#### variational Inference
+
+
+变分推断：
+https://www.cnblogs.com/yifdu25/p/8181185.html
+![image](https://user-images.githubusercontent.com/19379550/64235311-a6787900-cf2a-11e9-95dd-cdfa45d84d86.png)
