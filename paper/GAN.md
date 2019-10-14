@@ -3,6 +3,17 @@
 need read the paper
 
 
+### conditional GAN (Conditional Generative Adversarial Nets)
+conditional version of GAN, both the generator and the discriminator are conditional on some extra information y. y could be 
+any kind of auxiliary information.   
+in the generator, z and y are combined in joint hidden representation, In the discriminator x and y are presented as 
+inputs and to a discriminative function 
+
+
+![image](https://user-images.githubusercontent.com/19379550/66732119-19133780-ee8d-11e9-97fb-eee0adf88d6e.png)
+
+
+
 
 
 
@@ -20,3 +31,77 @@ need read the paper
 
 ### WGAN (Wasserstein GAN)
 -----
+
+
+
+
+
+### Cycle-GAN（Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks）
+
+img2img translation : pix2pix framework which use conditional generative adversarial network
+unpaired img2img translation: cycle gan,use a cycle consistency loss as a way of using transitivity to supervise cnn training.
+
+
+cycle-consistency loss:
+![image](https://user-images.githubusercontent.com/19379550/66536259-e85e9580-eb4e-11e9-9dad-19714c3be39b.png)
+
+![image](https://user-images.githubusercontent.com/19379550/66537007-86535f80-eb51-11e9-8aaf-05540dc42af1.png)
+
+
+Adversarial Loss:
+![image](https://user-images.githubusercontent.com/19379550/66536995-7e93bb00-eb51-11e9-98da-c6ccf3e888dd.png)
+
+full objective:
+![image](https://user-images.githubusercontent.com/19379550/66537052-af73f000-eb51-11e9-939b-a09ca317f13c.png)
+
+
+how to evaluate translation effect?
+
+evaluation metrics :
+1. AMT perceptual studies to evaluate maps<->aerial photos
+2. FCN score to evaluate labels-photo
+3. semantic segmentation metrics to evaluate photos-labels
+
+
+others methods(baseline):    
+- CoGAN: learns one GAN generator for domain X and one for domain Y , with tied weights on the first few layers for shared 
+latent representations. Translation from X to Y can be achieved by finding a latent representation that generates 
+image X and then rendering this latent representation into style Y .     
+  
+- SimGAN: adversarial loss to train domain x to domain y, regularization term |x- G(x|    
+
+- BiGAN/ALI: 
+
+- pix2pix: conditional GAN
+
+
+result:
+![image](https://user-images.githubusercontent.com/19379550/66555091-abab9200-eb80-11e9-8121-a85aba522a82.png)
+
+
+### CoGAN (Coupled Generative Adversarial Networks)
+
+CoGAN can learn a joint distribution with just samples drawn from the marginal distributions without paired data.    
+
+
+architecture:   
+![image](https://user-images.githubusercontent.com/19379550/66641776-fa732d80-ec4d-11e9-9f42-56bea6202dff.png)
+
+
+metric:   
+pixel agreement ratios
+
+![image](https://user-images.githubusercontent.com/19379550/66693247-91d19280-ecd9-11e9-9a39-d98146dc9ceb.png)
+
+**CelebFaces Attributes dataset for the experiments**    
+randomky sampled two points in the 100 dimensional input noise space and visualized the rendered face images as traveling
+ from one point to the other.
+![image](https://user-images.githubusercontent.com/19379550/66693422-30122800-ecdb-11e9-9ecd-73a4ab9f010e.png)
+
+
+
+Applications
+- **unsupervised domain adaptation(UDA)**
+- **cross domain Image Transformation** ,let L be the loss of two images, Given g1 and g2, the transformation can be 
+achieved by first finding the random vector that generates the query image in the 1st domain z∗ = arg minz L(g1(z), x1). 
+After finding z∗, one can apply g2 to obtain the transformed image, x2 = g2(z∗). 
