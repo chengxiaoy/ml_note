@@ -3,6 +3,9 @@
 need read the paper
 
 
+As suggested in the original GAN paper, rather than training G to mini- mize log(1 − D(x, G(x, z)), we instead train to maximize log D(x, G(x, z)) [24].
+
+
 ### conditional GAN (Conditional Generative Adversarial Nets)
 conditional version of GAN, both the generator and the discriminator are conditional on some extra information y. y could be 
 any kind of auxiliary information.   
@@ -11,6 +14,32 @@ inputs and to a discriminative function
 
 
 ![image](https://user-images.githubusercontent.com/19379550/66732119-19133780-ee8d-11e9-97fb-eee0adf88d6e.png)
+
+### infoGAN 
+
+
+
+
+### pixel2pixel (Image-to-Image Translation with Conditional Adversarial Networks)
+--------
+github: https://phillipi.github.io/pix2pix/.
+
+the hole net architecture :   
+![image](https://user-images.githubusercontent.com/19379550/66738701-a496c380-eea1-11e9-85b1-517e16cb7e43.png)
+
+
+
+the input is not noise z, so the generator architecture is u-net, an encoder-decoder net with skip connections.
+
+![image](https://user-images.githubusercontent.com/19379550/66738571-6e594400-eea1-11e9-87bc-0584e72e8f8b.png)
+
+The objective of a conditional GAN can be expressed as:   
+![image](https://user-images.githubusercontent.com/19379550/66739003-5cc46c00-eea2-11e9-80b4-9bce1421eec4.png)
+
+
+Previous approaches have found it beneficial to mix the GAN objective with a more traditional loss, such as L2 distance,
+ using L1 distance rather than L2 as L1 encourages less blurring.
+ ![image](https://user-images.githubusercontent.com/19379550/66739112-96957280-eea2-11e9-9d6b-cb036bd06b72.png)
 
 
 
