@@ -1,4 +1,4 @@
-from multiprocessing import Pool, Process
+from multiprocessing import Pool, Process, Manager
 import numpy as np
 import time
 import os
@@ -6,11 +6,12 @@ import os
 print('Global_print', os.getpid())
 
 
-def compute2( matrix):
+def compute2(matrix):
     m = np.random.randn(1024, 128)
     # print(size_m_1.shape)
     time.sleep(10.0)
     return matrix.dot(m)
+
 
 class Demo:
     def __init__(self):
@@ -58,12 +59,32 @@ class Demo:
         print("total cost time:{}".format(time.time() - since))
 
 
+def getGenerator(n):
+    for i in range(n):
+        print(i)
+        yield i
+
+
+def getId(n):
+    print(id(n))
+    print(n.__next__())
+
+
 if __name__ == '__main__':
-    demo = Demo()
-    demo.test([10, 20, 30, 40, 50])
-    # p = Process(target=run_proc, args=("subprocess",))
-    # print(os.getpid())
-    # p.start()
+    # demo = Demo()
+    # demo.test([10, 20, 30, 40, 50])
+
+
+    generator = getGenerator(10)
+
+
+    p1 = Process(target=getId, args=(generator,))
+    p2 = Process(target=getId, args=(generator,))
+    p3 = Process(target=getId, args=(generator,))
+    print(id(generator))
+    p1.start()
+    p2.start()
+    p3.start()
 
     # p = Pool(5)
     # size_list = [10, 20, 30, 40, 50]

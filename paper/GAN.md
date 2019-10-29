@@ -15,7 +15,18 @@ inputs and to a discriminative function
 
 ![image](https://user-images.githubusercontent.com/19379550/66732119-19133780-ee8d-11e9-97fb-eee0adf88d6e.png)
 
-### infoGAN 
+### infoGAN (InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets)
+------
+the generator may not use the conditional latent code, so and mutual information to the loss,
+ensure the generator data is correlative to the conditional latent code.
+
+![image](https://user-images.githubusercontent.com/19379550/66907189-8795f800-f03b-11e9-8e82-c7c199a04339.png)
+ 
+For categorical latent code ci, we use the natural choice of softmax nonlinearity to represent Q(ci|x). For continuous 
+latent code cj , there are more options depending on what is the true posterior P (cj |x). In our experiments, we have 
+found that simply treating Q(cj |x) as a factored Gaussian is sufficient.
+
+
 
 
 
