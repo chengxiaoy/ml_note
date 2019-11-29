@@ -1,7 +1,7 @@
 ### batch normalization
 
 在across mini-batch的维度上去归一化
-具体分为temporal batch normalization和spatial batch normalization   
+具体分为temporal batch normalization(1D)和spatial batch normalization(2D)   
 对于cnn 中的feature map应用bn时，是对channel维度上去做normalization，computing statistics
 on `(N, H, W)` slices，所以每个location上的方差均值都是一致的,所以称为 Spatial Batch Normalization   
 batchNorm是在batch上，对NHW做归一化，对小batchsize效果不好
