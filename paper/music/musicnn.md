@@ -38,4 +38,8 @@ the dataset is MedleyDB
 the github code is https://github.com/dogacbasaran/ismir2018_dominant_melody_estimation    
 
 
+### A Tutorial on Deep Learning for Music Information Retrieval
+
+
+MIR problems are subjective, a task may be ill-defined and an absolute ground truth for it may not exist.
 

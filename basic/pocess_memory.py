@@ -2,6 +2,10 @@ from multiprocessing import Pool, Process, Manager
 import numpy as np
 import time
 import os
+from multiprocessing import Manager
+
+d = Manager().dict()
+import joblib
 
 print('Global_print', os.getpid())
 
@@ -70,21 +74,33 @@ def getId(n):
     print(n.__next__())
 
 
+def test(i):
+    d[i] = i
+
+
 if __name__ == '__main__':
+    p = Pool(10)
+    p.map(test, range(1000000))
+    path_list = []
+    features = []
+    for k in d:
+        path_list.append(k)
+        features.append(d[k])
+
+    joblib.dump((path_list,features), 'd.pkl')
+
     # demo = Demo()
     # demo.test([10, 20, 30, 40, 50])
 
-
-    generator = getGenerator(10)
-
-
-    p1 = Process(target=getId, args=(generator,))
-    p2 = Process(target=getId, args=(generator,))
-    p3 = Process(target=getId, args=(generator,))
-    print(id(generator))
-    p1.start()
-    p2.start()
-    p3.start()
+    # generator = getGenerator(10)
+    #
+    # p1 = Process(target=getId, args=(generator,))
+    # p2 = Process(target=getId, args=(generator,))
+    # p3 = Process(target=getId, args=(generator,))
+    # print(id(generator))
+    # p1.start()
+    # p2.start()
+    # p3.start()
 
     # p = Pool(5)
     # size_list = [10, 20, 30, 40, 50]
