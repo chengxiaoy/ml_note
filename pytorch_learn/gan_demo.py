@@ -1,45 +1,67 @@
-from torch import nn
+from __future__ import print_function
+# %matplotlib inline
+import argparse
+import os
+import random
 import torch
+import torch.nn as nn
+import torch.nn.parallel
+import torch.backends.cudnn as cudnn
+import torch.optim as optim
+import torch.utils.data
+import torchvision.datasets as dst
+import torchvision.utils as vutils
 import numpy as np
-import torchvision
-from torch.autograd import Variable
+import matplotlib.pyplot as plt
+import matplotlib.animation as animation
+from IPython.display import HTML
+from torchvision.transforms import transforms
 
+# set random seed for reproducibility
+manualSeed = 999
+print("random seed: ", manualSeed)
+random.seed(manualSeed)
+torch.manual_seed(manualSeed)
 
-class autoencoder(nn.Module):
-    def __init__(self):
-        super(autoencoder, self).__init__()
-        self.encoder = nn.Sequential(
-            nn.Linear(28 * 28, 128),
-            nn.ReLU(True),
-            nn.Linear(128, 64),
-            nn.ReLU(True),
-            nn.Linear(64, 12),
-            nn.ReLU(True),
-            nn.Linear(12, 3)
-        )
+dataroot = "data/celeba"
+workers = 2
+batch_size = 128
+image_size = 64
+# number of channels in the training images, color image is 3
+nc = 3
+# size of z latent vector
+nz = 100
 
-        self.decoder = nn.Sequential(
-            nn.Linear(3, 12),
-            nn.ReLU(True),
-            nn.Linear(12, 64),
-            nn.ReLU(True),
-            nn.Linear(64, 128),
-            nn.ReLU(True),
-            nn.Linear(128, 28 * 28),
-            nn.Tanh()
-        )
+ngf = 64
 
-    def forward(self, x):
-        x = self.encoder(x)
-        x = self.decoder(x)
-        return x
+ndf = 64
 
+num_epochs = 5
 
-reconstruction_function = nn.MSELoss()
+lr = 0.0002
 
+beta1 = 0.5
 
-def loss_function(recon_x, x, mu, logvar):
-    mse = reconstruction_function(recon_x,x)
-    kld_element = mu.pow(2).add_(logvar.exp()).mul_(-1 )
+ngpu = 1
 
-torch.Tensor(10).normal_()
+celeba_root = "../celeba/"
+dst.CelebA(celeba_root, download=True)
+
+dataset = dst.ImageFolder(root=celeba_root,
+                          transform=transforms.Compose([
+                              transforms.Resize(image_size),
+                              transforms.CenterCrop(image_size),
+                              transforms.ToTensor(),
+                              transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)),
+                          ]))
+
+dataloader = torch.utils.data.DataLoader(dataset, batch_size=batch_size, shuffle=True, num_workers=workers)
+
+# decide which device we want to run on
+device = torch.device("cuda:0" if (torch.cuda.is_available() and ngpu > 0) else "cpu")
+
+real_batch = next(iter(dataloader))
+plt.figure(figsize=(8,8))
+plt.axis('off')
+plt.title("Training Images")
+plt.imshow(np.transpose(vutils.make_grid(real_batch[0].to(device)[:64],padding=2,normalize=True).cpu(),(1,2,0)))
